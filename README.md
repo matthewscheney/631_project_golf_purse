@@ -24,6 +24,8 @@ Describe your data source(s):
 * I don't believe I'll need to clean the data as it is precise, specific to what I need, and void of any outliers or invalid rows.
     * However, I will use the opportunity to standardize the data - numeric, percentages, lower case objects, etc.
 
+  My data is stored in my github repository as a release: https://github.com/matthewscheney/631_project_golf_purse/releases
+
 ## 4. Methods
 
 Summarize how you analyzed the data:
