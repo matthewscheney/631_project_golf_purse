@@ -31,9 +31,14 @@ Describe your data source(s):
 Summarize how you analyzed the data:
 
 * The test statistic for your permutation test
+     * My test statistic is the mean difference in percent of purse won between "long" hitters (top 25% in driving distance) and "short" hissters (bottom 25%)
 * How you simulated or resampled under the null hypothesis
+     * I used a permutation test to obtain a reference distribution if driving rank is shuffled among the percent purse won values
 * The metric(s) for which you created bootstrap confidence intervals
+     * I first used the mean of percent purse won, then used Max (a measure unusable by CLT)
 * Why the CLT does not apply to at least one metric
+     * CLT does not apply to the Max because it is not an additive value
+     * What is interesting is to see the distributino of Max in my histogram. I chose not to use this in my presentation because it is not pretty to look at, but          it's an interesting visual on how a value like Max behaves when bootstrapped, especially on a *relatively* small sample size like i have here (~45).
 
 ## 5. Results
 
