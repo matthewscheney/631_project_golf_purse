@@ -67,13 +67,13 @@ Present your main findings:
 Discuss your resampling results:
 
 * How many resamples you used
-*    10,000 resamples for the permutation and each CI test    
+   *10,000 resamples for the permutation and each CI test    
 * What the bootstrap or randomization distributions looked like
-*    The permutation mean distribution is normal, centered on 0, with short tails
-*    The CI distribution for the Mean is also normal for both groups, centered around their perspective means
-*    The CI distibution for the Max is very odd looking, with a only a few values represented. Not normal shaped.
+   * The permutation mean distribution is normal, centered on 0, with short tails
+   * The CI distribution for the Mean is also normal for both groups, centered around their perspective means
+   * The CI distibution for the Max is very odd looking, with a only a few values represented. Not normal shaped.
 * How you interpret the interval estimates
-*    For mean, we have 95% confidence that the mean percent purse won is between 0.76% and 1.51% for the top quartile, and between 0.66% and 1.09% for the bottom quartile. For this analysis, the fact that the lower bound of the top quartile and the upper bound of the bottom quartile means we cannot say there is a statistically significant difference between the groups.
+   * For mean, we have 95% confidence that the mean percent purse won is between 0.76% and 1.51% for the top quartile, and between 0.66% and 1.09% for the bottom quartile. For this analysis, the fact that the lower bound of the top quartile and the upper bound of the bottom quartile means we cannot say there is a statistically significant difference between the groups.
 
 ## 7. Limitations
 
